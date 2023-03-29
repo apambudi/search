@@ -1,0 +1,122 @@
+nav {
+    margin-top: 30px;
+    margin-left: 80%;
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: 300;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+a:hover {
+    text-decoration: underline;
+  }
+
+.search-field input[type=text]{
+    width: 40%;
+    padding: 14px 30px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    margin-top: 22%;
+    margin-left: 30%;
+    font-size: medium;
+}
+
+.search-field input[type=submit]{
+    color: white;
+    width: 9%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 2%;
+    margin-left:42%;
+    font-size:1vw;
+    background-color: #716b6b;
+    font-family: sans-serif;
+}
+
+#feeling-lucky{
+    margin-left: 1%; 
+    width: 10%
+}
+
+input[type=submit]:hover{
+    background-color: #878787;
+}
+
+/*** Styling specific for Google Image Search ***/
+
+button {
+    background-color: #194da0; 
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    font-size: 1vw;
+    border-radius: 5px;
+    margin-top: 1.5%;
+    margin-left:49%;
+  }
+
+button:hover{
+    background-color: #716b6b; /* Grey */
+}
+
+/*** Styling specific for Google Advanced Search ***/
+
+.google-form {
+    width: 100%;
+}
+
+.queries {
+    margin-left: 15%;
+    width: 10%;
+    float: left;
+    font-size: small;
+}
+
+.field input[type=submit] {
+    color: white;
+    padding: 9px;
+    margin-top: 1%; 
+    margin-left: 50.5%; 
+    background-color: rgb(28, 107, 204); 
+    border: 1px solid #ccc;
+    font-size: small;
+}
+
+.field {
+    width: 75%;
+    float: left
+}
+
+.field input[type=text]{
+    width: 60%;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    margin-top: 1%;
+    font-size: medium;
+}
+
+.field input[type=submit]:hover{
+    background-color: #878787;
+}
+
+#title {
+    font-size: xx-large; 
+    font-weight: 400; 
+    color: rgb(199, 97, 8);
+    margin-top: 100px;
+    margin-left: 15%;
+    font-family: sans-serif;
+}
+
+#sub-title {
+    font-size: large; 
+    font-weight: 200; 
+    margin-top: 10px;
+    margin-left: 15%;
+    font-family: sans-serif;
+}
